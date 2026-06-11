@@ -1,0 +1,23 @@
+{
+  "folders": [
+    {
+      "name": "Backend (Strapi CMS)",
+      "path": "backend"
+    },
+    {
+      "name": "Frontend (Next.js App)",
+      "path": "frontend"
+    },
+    {
+      "name": "Root Project Documentation",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.next": true,
+      "**/.tmp": true
+    }
+  }
+}

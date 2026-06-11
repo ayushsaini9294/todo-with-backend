@@ -1,0 +1,50 @@
+# ──────────────────────────────────────────────
+# Dependencies
+# ──────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ──────────────────────────────────────────────
+# Environment / Secrets  ← NEVER commit these
+# ──────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ──────────────────────────────────────────────
+# Build outputs
+# ──────────────────────────────────────────────
+.next/
+out/
+build/
+dist/
+
+# ──────────────────────────────────────────────
+# Strapi specifics
+# ──────────────────────────────────────────────
+backend/.strapi/
+backend/.tmp/
+backend/.strapi-updater.json
+backend/public/uploads/
+
+# SQLite database files  ← keep out of repo
+backend/database/
+
+# ──────────────────────────────────────────────
+# Logs & OS noise
+# ──────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+
+# ──────────────────────────────────────────────
+# Editor / IDE
+# ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
